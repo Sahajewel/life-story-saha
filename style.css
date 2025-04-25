@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+header{
+    background: url("images/banner.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-container{
+    max-width: 1170px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+.overlay {
+    background: rgba(0,100,255,0.7);
+    padding: 35px 0px 150px;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: white;
+}
+
+.nav nav ul {
+    display: flex;
+    list-style: none;
+    gap: 4.5rem;
+    text-transform: capitalize;
+    align-items: center;
+}
+
+.nav nav ul li a {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.nav nav ul a:hover {
+    color: red;
+}
+
+.banner-wrapper {
+    padding-top: 150px;
+}
+
+.banner-wrapper h2 {
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.banner-wrapper p {
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.banner-wrapper button {
+    background: red;
+    border: none;
+    margin-top: 2rem;
+    border: 1px solid white;
+    padding: 1rem 2rem;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+
+.banner-wrapper {
+    text-align: center;
+}
+
+
+
+.banner-wrapper button:hover {
+    background: white;
+    border: 1px solid red;
+}
+
+
+.image {
+    background: grey;
+    margin: 100px 0px;
+    padding: 100px 0px;
+}
+
+.image h2 {
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+
+.image-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+.im1 img {
+    width: 100%;
+    display: block;
+    transition: 0.5s;
+   
+  
+}
+
+.im1:hover img {
+    transform: scale(1.5);
+    filter:contrast(50%);
+   
+    
+
+   
+}
+
+.im1 {
+    overflow: hidden;
+   
+}
+.image-back{
+    background: url("images/banner.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 200px 0px;
+}
+
+.header2{
+    background: url("images/banner.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px;
+   
+}
+
+.overlay2 {
+    background: rgba(0,100,255,0.7);
+   padding: 200px;
+}
+
+.maa{
+    background: url("images/banner.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.saha{
+    background: rgb(155 14 53 / 58%);
+    padding: 533px;
+}
+
